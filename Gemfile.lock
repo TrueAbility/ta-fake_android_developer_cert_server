@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    fake_android_developer_cert_server (0.3.2)
+      sinatra
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.16.3)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (3.0.3)
+      rack
+    rake (10.5.0)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.3)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.3)
+      tilt (~> 2.0)
+    tilt (2.0.11)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  bundler
+  fake_android_developer_cert_server!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   2.3.12
